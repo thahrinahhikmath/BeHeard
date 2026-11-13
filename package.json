@@ -1,0 +1,15 @@
+{
+  "name": "beheard",
+  "version": "1.0.0",
+  "description": "Turn every phone in the hall into a microphone.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}
